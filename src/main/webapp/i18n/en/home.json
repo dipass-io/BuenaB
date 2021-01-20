@@ -1,6 +1,6 @@
 {
   "home": {
-    "title": "Welcome, Java Hipster!",
+    "title": "Welcome, Java JHipster!",
     "subtitle": "This is your homepage",
     "logged": {
       "message": "You are logged in as user \"{{username}}\"."
@@ -15,5 +15,8 @@
     },
     "like": "If you like JHipster, don't forget to give us a star on",
     "github": "GitHub"
+  },
+  "poster": {
+    "Aesthetic": "Dipass.io Digital Transformation"
   }
 }
