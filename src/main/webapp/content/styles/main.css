@@ -485,7 +485,7 @@ a:focus {
   text-decoration: none;
   white-space: nowrap;
   background-color: #111;
-  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 5px 10px rgba(126, 91, 207, 0.3);
   -webkit-font-smoothing: antialiased;
   cursor: pointer;
   -webkit-user-select: none;
@@ -497,6 +497,7 @@ a:focus {
 @media screen and (min-width: 30.77em) {
   .btn {
     font-size: calc(0.5625000003rem + strip-unit0.1874999999rem * (100vw - 30.77em) / strip-unit43.076em);
+    border-radius: 45px;
   }
 }
 
@@ -511,7 +512,7 @@ a:focus {
 }
 
 .btn:hover {
-  background-color: #000;
+  background-color: #506485;
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
   color: #fff;
 }
