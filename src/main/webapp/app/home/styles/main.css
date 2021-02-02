@@ -475,13 +475,14 @@ a:focus {
   position: relative;
   display: inline-block;
   width: auto;
+  position: relative;
   padding: 1.5em;
   vertical-align: middle;
   font-size: 0.5625000003rem;
   letter-spacing: 0.15em;
   color: #f4f1d0;
   line-height: 1;
-  text-transform: uppercase;
+  text-transform: none;
   text-decoration: none;
   white-space: nowrap;
   background-color: #111;

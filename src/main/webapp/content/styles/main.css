@@ -473,15 +473,15 @@ a:focus {
   font-style: normal;
   transition: all 0.4s cubic-bezier(0.455, 0.03, 0.515, 0.955);
   position: relative;
-  display: inline-block;
-  width: auto;
+  display: block;
+  width: 259px;
   padding: 1.5em;
   vertical-align: middle;
   font-size: 0.5625000003rem;
   letter-spacing: 0.15em;
   color: #f4f1d0;
   line-height: 1;
-  text-transform: uppercase;
+  text-transform: none;
   text-decoration: none;
   white-space: nowrap;
   background-color: #111;
@@ -1112,7 +1112,7 @@ a:hover .icon {
     background-color: #111
 } */
 
-.nav {
+/**.nav {
   margin: 0 0 3em;
 }
 
@@ -1160,7 +1160,7 @@ a:hover .icon {
   font-weight: 500;
   font-style: normal;
   transition: color 0.4s cubic-bezier(0.455, 0.03, 0.515, 0.955);
-}
+}**/
 
 .poster {
   position: relative;
