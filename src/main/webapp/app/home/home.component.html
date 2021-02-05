@@ -61,7 +61,15 @@
   <button mat-raised-button color="primary">Join Us</button>
 </form>-->
 
-<main role="main" class="wrapper"><!--<a href="#" class="scroll-indicator" data-scroll-indicator><svg width="24" height="24"
+<div [ngSwitch]="isAuthenticated()">
+<main role="main" class="wrapper"  [ngSwitch]="isAuthenticated()">
+  <main class="alert alert-success" *ngSwitchCase="true">
+      <span id="home-logged-message" *ngIf="account" jhiTranslate="home.logged.message"
+          [translateValues]="{ username: account.login }">You are logged in as user "{{ account.login }}".</span>
+  </main>
+</main>  
+
+<main role="main" class="wrapper" [ngSwitch]="isAuthenticated()" *ngSwitchCase="false"><!--<a href="#" class="scroll-indicator" data-scroll-indicator><svg width="24" height="24"
     viewBox="0 0 100 100">
   <use xlink:href="#arrow-down" /></svg> <span class="visuallyhidden">Scroll Down</span></a>-->
 <div data-transition-content>
@@ -277,3 +285,4 @@
   </section>
 </div>
 </main>
+</div>
