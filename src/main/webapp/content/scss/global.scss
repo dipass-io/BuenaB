@@ -94,7 +94,7 @@ Generic styles
 
 .break {
   white-space: normal;
-  word-break: break-all;
+  /**word-break: break-all;**/
 }
 
 .readonly {

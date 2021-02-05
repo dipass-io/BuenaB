@@ -3,7 +3,9 @@
         <span class="logo-img"></span>
         <span jhiTranslate="global.title" class="navbar-title">DIPASSIO</span> <span class="navbar-version">{{ version }}</span>
     </a>
-
+    <h1 class="header__title"><a href="index.html" data-transition-page><svg class="icon header__title-logo" width="32"
+        height="32" viewBox="0 0 100 100">
+        <use xlink:href="#logo" /></svg> <span class="header__title-text">Hire Coders & Developers</span></a></h1>
     <!--<div class="header_container">
         <h1 class="header__title"><a href="index.html" data-transition-page><svg class="icon header__title-logo" width="32"
               height="32" viewBox="0 0 100 100">
@@ -19,10 +21,10 @@
         <ul class="navbar-nav ml-auto">
             <li class="nav-item" routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }">
                 <a class="nav-link" routerLink="/" (click)="collapseNavbar()">
-                    <span>
+                    <!--<span>
                         <fa-icon icon="home"></fa-icon>
                         <span jhiTranslate="global.menu.home">Home</span>
-                    </span>
+                    </span> -->
                 </a>
             </li>
             <!-- jhipster-needle-add-element-to-menu - JHipster will add new menu items here -->
